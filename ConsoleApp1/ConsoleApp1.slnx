@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../MPI/MPI.csproj" />
+  <Project Path="../Threaded/Threaded.csproj" />
+  <Project Path="Core.csproj" />
+</Solution>
