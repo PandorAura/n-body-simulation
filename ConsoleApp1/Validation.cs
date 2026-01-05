@@ -36,7 +36,4 @@ namespace Core
         private static double Abs(double x) => x < 0 ? -x : x;
         private static double Max(double a, double b) => a > b ? a : b;
 }
-csharp
-Copy code
-
 }
