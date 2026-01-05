@@ -19,8 +19,7 @@ class Program
             Seed = 12345
         };
 
-        // Snapshot settings
-        int snapEvery = 20; // write a CSV every 20 steps
+        int snapEvery = 20; 
         string outDir = "out";
         Directory.CreateDirectory(outDir);
 

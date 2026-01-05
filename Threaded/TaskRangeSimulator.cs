@@ -1,9 +1,4 @@
 ﻿using Core;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Threaded
 {
@@ -38,7 +33,6 @@ namespace Threaded
 
         private static void RunRanges(int T, int n, Action<int, int> work)
         {
-            // Create exactly T tasks; each handles a contiguous block.
             var tasks = new Task[T];
 
             for (int t = 0; t < T; t++)
